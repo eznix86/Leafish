@@ -94,7 +94,7 @@ Support for older protocols will _not_ be dropped as newer protocols are added.
 ### Downloading a pre-built version
 
 Since there currently is no release yet, pre-built binaries have to be downloaded from Github Actions.
-The latest actions can always be seen [here](https://github.com/Lea-fish/Leafish/actions).
+The latest actions can always be seen [here](https://github.com/eznix86/Leafish/actions).
 Click on a workflow run from the main branch and download the artifact for your platform.
 
 ### Building the game
