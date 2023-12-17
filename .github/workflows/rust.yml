@@ -62,6 +62,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           args: --all-targets -- -D warnings
+          timeout-minutes: 10
 
       - name: Build binary
         env:
