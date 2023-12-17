@@ -59,10 +59,11 @@ jobs:
 
       - name: Run clippy
         uses: actions-rs/clippy-check@v1.0.7
+        timeout-minutes: 10
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           args: --all-targets -- -D warnings
-          timeout-minutes: 10
+          
 
       - name: Build binary
         env:
